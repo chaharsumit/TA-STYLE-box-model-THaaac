@@ -70,11 +70,6 @@ body{
   border-radius: 20px;
 }
 
-.footer{
-  background-color: #A1A1A1;
-  padding: 10px;
-}
-
 .circle{
   width: 300px;
   height: 300px;
@@ -83,6 +78,7 @@ body{
 }
 .links{
   border-bottom: 3px dashed blue;
+  background-color: #A1A1A1;
 }
 
 .footer,.paragraph-container,.image,.circle{
