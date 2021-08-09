@@ -79,6 +79,8 @@ body{
 .links{
   border-bottom: 3px dashed blue;
   background-color: #A1A1A1;
+  display: inline-block;
+  padding: 10px;
 }
 
 .footer,.paragraph-container,.image,.circle{
