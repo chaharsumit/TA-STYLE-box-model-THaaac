@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 0;
+}
+
+.header{
+  text-align: center;
+}
+
+h1,ul,h3,p,hr{
+  text-align: center;
+  margin: 50px auto;
+}
+
+hr{
+  width: 500px;
+  border: 1px dashed #c1c2c2;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.style-box{
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+  background-color: #add8e6;
+  border: 5px solid black;
+  box-shadow: 0 1px 0 25px #ed7f80;
+  margin: 0 auto;
+}
+
+
+.content-box{
+  background-color: #d9f8d4;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/*circle styles*/
+
+.circle{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.primary{
+  background-color: #d9f8d4;
+}
+
+.info{
+  background-color: #add8e6;
+}
+
+.danger{
+  background-color: #ed7f80;
+}
+
+.dark{
+  background-color: black;
+}
+
+/*list style*/
+
+.list-item{
+  display: inline-block;
+  margin: 20px;
+}
+
+
+/*text styles*/
+.text-lg{
+  font-size: 50px;
+}
+
+.text-md{
+  font-size: 30px;
+}
+
+.text-sm{
+  font-size: 18px;
+}
+
+.parent{
+  width: 600px;
+  border: 1px solid rgb(65, 65, 65);
+  margin: 0 auto;
+}
+
+.box-parent{
+  width: 600px;
+}
+
+.box{
+  display: inline-block;
+  width: 180px;
+  height: 100px;
+  margin: 10px;
+  background: #cccccc;
+}
+
+.box-2{
+  border: 1px solid black;
+}
