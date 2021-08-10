@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*CUSTOM CSS*/
+
+body{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+}
+
+
+/* horizontal rule */
+
+hr{
+  border: none;
+  background-color: #888888;
+  height: 0.08px;
+  margin: 24px auto;
+}
+
+/* Header */
+
+
+.header{
+  background-color: #2d3040;
+  text-align: center;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+
+
+/*navbar styles*/
+
+nav{
+  padding: 10px;
+}
+
+.nav-item{
+  display: inline-block ;
+  margin: 12px;
+  text-transform: uppercase;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* containers */
+
+.hero{
+  background-color: #2d3040;
+  text-transform: uppercase;
+  padding: 120px 0;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+/* container elements styling */
+
+.content{
+  margin-bottom: 0;
+  padding: 40px 0;
+}
+
+.content h4{
+  text-transform: uppercase;
+}
+
+.article-heading{
+  margin-bottom: 24px;
+}
+
+.article-heading{
+  font-size: 36px;
+}
+
+.article-link{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.article-text{
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* Image styles */
+
+.image{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* footer */
+
+.footer{
+  background-color: #2d3040;
+  padding: 40px 0;
+  font-size: 18px;
+}
+
+/* Text Styles */
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+
+.text-xlg{
+  font-size: 52px;
+}
+
+.text-lg{
+  font-size: 42px;
+}
+
+.text-sm{
+  font-size: 24px;
+}
+
+.text-grey{
+  color: #878992;
+}
+
+/* colors */
+.primary{
+  background-color: #4c5c96;
+}
+
+.success{
+  background-color: #44558d;
+}
+
+.danger{
+  background-color: #404e85;
+}
