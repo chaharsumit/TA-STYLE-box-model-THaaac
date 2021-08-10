@@ -49,30 +49,30 @@ table {
 /*CUSTOM CSS*/
 
 body{
-  background-color: #2d3040;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.8;
 }
 
 
+/* horizontal rule */
+
+hr{
+  border: none;
+  background-color: #888888;
+  height: 0.08px;
+  margin: 24px auto;
+}
+
 /* Header */
 
 
 .header{
+  background-color: #2d3040;
   text-align: center;
   padding: 20px;
   text-transform: capitalize;
 }
-
-
-
-/* margins */
-
-h1,p,hr,h4{
-  margin: 30px 0;
-}
-
 
 
 
@@ -91,40 +91,52 @@ nav{
 .nav-link{
   text-decoration: none;
   color: white;
+  font-size: 18px;
 }
 
 /* containers */
 
 .hero{
+  background-color: #2d3040;
   text-transform: uppercase;
+  padding: 120px 0;
 }
 
 .container{
   width: 70%;
   margin: 0 auto;
-  padding: 30px;
 }
 
-.hero .container{
-  padding: 200px 0;
-}
 
 /* container elements styling */
 
 .content{
   margin-bottom: 0;
+  padding: 40px 0;
 }
 
 .content h4{
   text-transform: uppercase;
 }
 
-/* horizontal rule */
+.article-heading{
+  margin-bottom: 24px;
+}
 
-hr{
-  border: none;
-  background-color: #878992;
-  height: 0.08px;
+.article-heading{
+  font-size: 36px;
+}
+
+.article-link{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.article-text{
+  margin: 20px 0;
+  font-size: 18px;
 }
 
 /* Image styles */
@@ -133,22 +145,20 @@ hr{
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 /* footer */
 
 .footer{
-  padding: 20px 0;
+  background-color: #2d3040;
+  padding: 40px 0;
+  font-size: 18px;
 }
-
-
-
-
-
 
 /* Text Styles */
 
-h1,h2,h3,h4,h5,h6,.learn{
+h1,h2,h3,h4,h5,h6{
   font-weight: bold;
 }
 
@@ -160,16 +170,8 @@ h1,h2,h3,h4,h5,h6,.learn{
   font-size: 42px;
 }
 
-.text-md{
-  font-size: 36px;
-}
-
 .text-sm{
   font-size: 24px;
-}
-
-.text-xsm{
-  font-size: 18px;
 }
 
 .text-grey{
@@ -188,10 +190,3 @@ h1,h2,h3,h4,h5,h6,.learn{
 .danger{
   background-color: #404e85;
 }
-
-/*colors
-1.#4c5c96
-2.#44558d
-3.#404e85
-4.#878992
-*/
